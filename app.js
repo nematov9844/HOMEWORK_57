@@ -97,9 +97,7 @@ function splitArrayInHalf(arr) {
     return [firs, secon];
 }
 
-const splitArrayInHalf2 = (arr) => [arr.slice(0, Math.ceil(arr.length / 2)), arr.slice(Math.ceil(arr.length / 2))];
 
-// console.log(splitArrayInHalf2([1, 2, 3, 4, 5])); // [[1, 2, 3], [4, 5]]
 // console.log(splitArrayInHalf([1, 2, 3, 4, 5])); // [[1, 2, 3], [4, 5]]
 // console.log(splitArrayInHalf([1, 2, 3, 4]));    // [[1, 2], [3, 4]]\
 
